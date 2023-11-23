@@ -1,0 +1,44 @@
+#skillsSection{
+    margin: 100px;
+    outline: solid 3px rgb(185, 204, 204);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.skillsImg{
+    padding: 8px;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+@media screen and (max-width:840px){
+    #skillsSection{
+        margin: 50px;
+        padding: 25px;
+    }
+
+    .list{
+        font-size: 10px;
+    }
+
+    .skillsImg{
+    padding: 4px;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    }
+}
+
+   
+
+

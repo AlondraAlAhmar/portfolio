@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    background: rgba(30, 30, 90, 0.044);
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+/*rgba(30, 30, 90, 0.153);
+  rgb(145, 170, 147); */

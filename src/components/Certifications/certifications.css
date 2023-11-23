@@ -1,0 +1,42 @@
+#cert{
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.certImg{
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(145, 170, 147);
+    border-radius: 30px;
+}
+
+.certImg:hover{
+    height: 350px;
+    width: 450px;
+}
+
+@media screen and (max-width:840px){
+    #cert{
+        margin: 50px;
+        padding: 20px;
+    }
+
+    .certImg{
+        height: 150px;
+        width: 200px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .certImg:hover{
+        height: 175px;
+        width: 225px;
+    }
+}
